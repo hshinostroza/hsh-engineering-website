@@ -17,10 +17,13 @@ export default function ThankYouContent() {
           <span style={{ fontSize: "13px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#C9911A" }}>Engineering</span>
         </Link>
         <Link href="/"
-          style={{ fontSize: "12px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", textDecoration: "none", transition: "color 0.2s" }}
+          style={{ fontSize: "12px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", textDecoration: "none", transition: "color 0.2s", whiteSpace: "nowrap", flexShrink: 0 }}
           onMouseEnter={(e) => (e.currentTarget.style.color = "#C9911A")}
           onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.3)")}
-        >← Back to Home</Link>
+        >
+          <span className="hidden sm:inline">← Back to Home</span>
+          <span className="sm:hidden">←</span>
+        </Link>
       </header>
 
       <div style={{ flex: 1, display: "flex", alignItems: "center" }}>
