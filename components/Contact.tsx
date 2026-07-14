@@ -66,7 +66,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "80px", alignItems: "start" }} className="md:grid-cols-[1fr_2fr] grid-cols-1">
+        <div className="contact-grid" style={{ display: "grid", gap: "48px", alignItems: "start" }}>
 
           <div>
             <p style={{ fontSize: "15px", fontWeight: 300, color: "#6B6355", lineHeight: 1.9, marginBottom: "40px" }}>

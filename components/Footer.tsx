@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer style={{ background: "#0E0D0B", borderTop: "1px solid #1A1814" }}>
       <div className="max-w-screen-xl mx-auto px-8" style={{ paddingTop: "72px", paddingBottom: "72px" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1.5fr 1fr 1fr 1fr", gap: "48px", marginBottom: "56px" }} className="grid-cols-2 md:grid-cols-4">
+        <div className="footer-grid" style={{ display: "grid", gap: "32px", marginBottom: "56px" }}>
 
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "16px" }}>
